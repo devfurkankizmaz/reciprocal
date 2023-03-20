@@ -8,7 +8,7 @@ func main() {
 }
 
 func Reciprocal(input string) string {
-	i := []rune(input)        //Using rune for fetch chars in out input
+	i := []rune(input)        //Using rune for fetch chars in input
 	o := make([]rune, len(i)) //We create slice for our output with capacity input
 
 	for x := range i {
